@@ -38,9 +38,6 @@ nav{
     box-shadow: 0px 4px 10px gray;
     padding: 15px;
     border-radius: 10px;
-    
-    
-    display: flex;
     justify-content: space-between;
     align-items: center;
     
@@ -62,4 +59,39 @@ nav ul{
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text{
+    width:60%;
+}
+
+.hero-image{
+    width:40%;
+    text-align: right;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
 }
