@@ -1,0 +1,28 @@
+html{
+
+}
+
+body{
+    width:100%;
+
+}
+
+main{
+
+}
+
+.grid{
+   
+    display:grid;
+    gap:20px;
+   grid-template-columns:1fr 1fr 1fr;
+}
+
+.childern{
+    background-color: black;
+}
+
+
+
+
+
