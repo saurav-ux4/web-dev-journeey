@@ -13,13 +13,26 @@ main{
 
 .grid{
    
-    display:grid;
-    gap:20px;
-   grid-template-columns:1fr 1fr 1fr;
+   display:grid;
+   grid-template-columns: 200px 1fr; 
+   grid-template-rows: 100px auto; 
 }
 
-.childern{
-    background-color: black;
+
+
+header {
+  grid-column: 1 / span 2; /* stretch across both columns */
+  grid-row: 1;             /* first row */
+}
+
+aside {
+  grid-column: 1;           /* first column */
+  grid-row: 2;              /* second row */
+}
+
+main {
+  grid-column: 2;           /* second column */
+  grid-row: 2;              /* second row */
 }
 
 
