@@ -1,0 +1,151 @@
+html{
+   scroll-behavior: smooth;
+}
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 100vh;
+}
+
+.nav-bar{
+
+
+}
+
+.image-box{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.first{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-image:url(images/pexels-brett-aukburg-2161021813-37163483.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image:url(images/pexels-adam-sondel-381265-3923270.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.third{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image:url(images/pexels-calvinseng-36609914.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div{
+    background-color: gray;
+
+}
+
+.butt-1{
+    margin-left: auto;
+}
+
+
+
+
+.middle-1{
+    height: 100vh;
+}
+
+ .image-div{
+    width: 500px;
+    height:400px;
+    background-color: rgb(237, 194, 24);
+    background-image:url(images/pexels-jan-van-der-wolf-11680885-19884401.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+
+
+.middle-2{
+    height: 100vh;
+}
+.image-block{
+    width: 570px;
+    height:400px;
+    background-image:url(images/pexels-erkocphoto-32146234.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.ending-page{
+    height: 100vh;
+}
+
+.card-row{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+  
+}
+
+.first-row{
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+}
+
+.f-one{
+    grid-column: 1/2;
+    background-image:url(images/pexels-oandremoura-36938397.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.f-two{
+     grid-column: 2/3;
+}
+
+.second-row{
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+
+}
+
+.s-one{
+
+    grid-column: 1/2;
+    background-image:url(images/pexels-oandremoura-36938397.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.s-two{
+     grid-column: 2/3;
+}
+
+
+
+.butt-3{
+
+}

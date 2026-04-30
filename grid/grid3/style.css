@@ -1,4 +1,4 @@
-htnl{
+html{
 
 }
 
@@ -6,15 +6,14 @@ body{
     box-sizing: border-box;
     margin:0;
     padding:0;
-    height:100vh;
     max-width:100%;
     background-color: gray;
 }
 
 main{
-    height: 100vh;
-    display:grid;
-    grid-template-columns: 1fr 1fr 300px;
+   height: 100vh;
+   display:grid;
+   grid-template-columns: 1fr 1fr 300px;
    
 
 }
@@ -67,5 +66,39 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    margin-left: 5px;
+
+}
+
+.third{
+    height: 100vh;
+
+}
+
+/* media queries*/
+/* for mobile*/
+
+@media (max-width: 600px) {
+body{
+    background-color: rgb(58, 172, 181);
+}
+
+main{
+   height: 100vh;
+   display:grid;
+   grid-template-columns: 1fr 1fr ;
+}
+
+.first{
+    grid-column: 1/3;
+}
+
+.second{
+    grid-column:2/3;
+}
+
+.sidebar{
+    
+}
 
 }

@@ -1,0 +1,57 @@
+html{
+scroll-behavior: smooth;
+}
+
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: rgb(1, 24, 41);
+}
+
+main{
+   
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 500px;
+    gap:20px;
+}
+
+.first{
+    grid-column: 1/2;
+    background-image:url(images/athen.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.second{
+    grid-column: 2/3;
+    background-image: url(images/athen2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.third{
+    grid-column: 3/4;
+}
+
+.fourth{
+    grid-column: 4/5;
+    background-image:url(images/athen3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sidebar{
+    grid-column: 5/6;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fifth{
+    height:100vh;
+}

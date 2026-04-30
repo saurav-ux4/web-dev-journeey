@@ -1,0 +1,27 @@
+
+.cards{
+    display:flex;
+    justify-content: flex-start;
+    gap:24px;
+}
+
+.card{
+    width:300px;
+    background-color: burlywood;
+    color: aliceblue;
+   
+    display: flex;
+   flex-direction: column;
+
+}
+
+.card-b{
+
+}
+h2{
+    margin-bottom: 20px;
+}
+
+p{
+    margin-bottom: 20px;
+}
